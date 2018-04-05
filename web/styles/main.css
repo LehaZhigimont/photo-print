@@ -1,0 +1,75 @@
+.main_contain {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 1536px;
+    min-width: 800px;
+}
+
+.top_center {
+    background-image: url('../resources/logo/logo.png');
+    background-size: cover;
+    height: 200px;
+    margin-top: -10px;
+    max-width: 1536px;
+    border-radius: 10px;
+}
+
+.top_center_text {
+    background-image: url('../resources/logo/VivaldiDCL.png');
+    background-size: cover;
+    height: 200px;
+    max-width: 800px;
+}
+
+a.entReg {
+    text-decoration: none;
+    color: black;
+    text-align: right
+}
+
+a:hover.menu {
+    color: red;
+    line-height: 0.7
+}
+
+.top_top {
+    display: inline-block;
+    width: 100%;
+    line-height: 0.3;
+}
+
+.top_date {
+    float: left;
+}
+
+.top_name_user {
+    float: left;
+    margin-left: 25%;
+}
+
+.top_login {
+    float: right;
+}
+
+.top_bottom {
+    margin-top: -3px
+}
+
+a.menu {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#demo_navi {
+    z-index: 99999;
+    position: fixed;
+    margin-top: 90%;
+    height: 50px;
+    width: 79%;
+    margin-left: 10%;
+    background: url('//');
+    border-bottom: 1px solid #0d0d0d;
+    box-shadow: 0px 2px 15px rgba( 0, 0, 0, 0.6);
+}
+
